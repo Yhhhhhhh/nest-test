@@ -1,3 +1,26 @@
 {
-  "editor.formatOnSave": true
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.words": ["nestjs"],
+  "prettier.printWidth": 120,
+  "editor.rulers": [
+    {
+      "column": 100,
+      "color": "#00ff0033"
+    },
+    {
+      "column": 120,
+      "color": "#ff00ff33"
+    },
+    {
+      "column": 140,
+      "color": "#ff000066"
+    }
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.semi": false
 }
